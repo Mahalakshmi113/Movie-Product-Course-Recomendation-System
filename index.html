@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendation System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Recommendation System</h1>
+  </header>
+
+  <main>
+    <!-- Domain Selection -->
+    <section id="domain-selection">
+      <label for="domain">Select Domain:</label>
+      <select id="domain">
+        <option value="" disabled selected>Choose a domain</option>
+        <option value="movies">Movies</option>
+        <option value="courses">Courses</option>
+        <option value="ecommerce">E-Commerce</option>
+      </select>
+    </section>
+
+    <!-- Recommendation Display -->
+    <section id="recommendations" class="hidden">
+      <div id="domain-title">
+        <h2 id="selected-domain">Recommendations</h2>
+      </div>
+      <div id="recommendation-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Recommendation System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
