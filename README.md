@@ -83,5 +83,3 @@ python manage.py runserver 0.0.0.0:8000  # Movie
 ```
 
 ---
-
-**Built with ❤️ using Python, Flask, Django, and Machine Learning**
