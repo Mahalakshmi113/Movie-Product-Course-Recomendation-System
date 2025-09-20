@@ -1,7 +1,8 @@
 # 🎯 Multi-System Recommendation Engine
 
 Three intelligent recommendation systems: **Movies**, **Courses**, and **Products**. Each uses different ML algorithms to provide personalized recommendations.
-group project by Nithin , Mahalakshmi B R , Abhinab
+
+Group project by Nithin , Mahalakshmi B R , Abhinab
 ##  Quick Start
 
 ### Prerequisites
